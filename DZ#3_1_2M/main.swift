@@ -25,6 +25,8 @@ var j: Int = 0
 var k: Int = 0
 
 
+//RepairService.repShowInfo(array: devices)
+ 
 //repShowInfo(array: devices)
 
 for pk in devices {

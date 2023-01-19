@@ -12,17 +12,17 @@ class RepairService {
     
     init(gadget: [Computer]) {
         self.gadget = gadget
-        
-        func repShowInfo(array:[Computer]){
+    }
+        func repShowInfo(array: [Computer]){
             
            // for pk in array {
-              //  print("Rabotaet \(pk)")
+                print("Rabotaet \(pk)")
           //  }
-            print(array)
+           // print(array)
             //
         }
     }
-}
+
             
             //        for i in device {
             //            if i.onRepairs {
