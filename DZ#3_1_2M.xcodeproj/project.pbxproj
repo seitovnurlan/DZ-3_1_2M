@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		28A09E8D29793EF5005F0824 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A09E8C29793EF5005F0824 /* main.swift */; };
+		28A09E9429795360005F0824 /* Сomputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A09E9329795360005F0824 /* Сomputer.swift */; };
+		28A09E96297953AA005F0824 /* Laptop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A09E95297953AA005F0824 /* Laptop.swift */; };
+		28A09E98297953E4005F0824 /* Smartphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A09E97297953E4005F0824 /* Smartphone.swift */; };
+		28A09E9A2979544C005F0824 /* RepairService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A09E992979544C005F0824 /* RepairService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		28A09E8929793EF5005F0824 /* DZ#3_1_2M */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DZ#3_1_2M"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A09E8C29793EF5005F0824 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		28A09E9329795360005F0824 /* Сomputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Сomputer.swift"; sourceTree = "<group>"; };
+		28A09E95297953AA005F0824 /* Laptop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laptop.swift; sourceTree = "<group>"; };
+		28A09E97297953E4005F0824 /* Smartphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smartphone.swift; sourceTree = "<group>"; };
+		28A09E992979544C005F0824 /* RepairService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				28A09E8C29793EF5005F0824 /* main.swift */,
+				28A09E992979544C005F0824 /* RepairService.swift */,
+				28A09E9329795360005F0824 /* Сomputer.swift */,
+				28A09E95297953AA005F0824 /* Laptop.swift */,
+				28A09E97297953E4005F0824 /* Smartphone.swift */,
 			);
 			path = "DZ#3_1_2M";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A09E98297953E4005F0824 /* Smartphone.swift in Sources */,
+				28A09E9A2979544C005F0824 /* RepairService.swift in Sources */,
+				28A09E9429795360005F0824 /* Сomputer.swift in Sources */,
 				28A09E8D29793EF5005F0824 /* main.swift in Sources */,
+				28A09E96297953AA005F0824 /* Laptop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
