@@ -13,23 +13,20 @@ class RepairService {
     init(gadget: [Computer]) {
         self.gadget = gadget
     }
-        func repShowInfo(array: [Computer]){
-            
-           // for pk in array {
-                print("Rabotaet \(pk)")
-          //  }
-           // print(array)
-            //
+        
+    func repShowInfo(array: [Computer]){
+        var j: Int = 0
+        var k: Int = 0
+            for i in array {
+                if i is Laptop && i.onRepairs {
+                        j += 1
+                    print("Noutbuk \(i.name)")
+                    }
+                if i is Smartphone && i.onRepairs {
+                        k += 1
+                    print("Smartfone \(i.name)")
+                   }
+                }
+                print("На сервисе: \(j) ноутбуков и \(k) смартфонов")
+            }
         }
-    }
-
-            
-            //        for i in device {
-            //            if i.onRepairs {
-            //                print("Name \(name) CPU \(cpu) Number of cores \(numberOfCores) RAM \(ram) SSD \(ssd) On repairs \(onRepairs) Battery \(battery)")
-            //            }
-            //            }
-            //        }
-//        }
-//    }
-//    print("На сервисе: \(j) ноутбуков и \(k) смартфонов")

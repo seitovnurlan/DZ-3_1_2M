@@ -21,23 +21,10 @@ var nout2 = Laptop(name: "Zenbook", cpu: "Intel i7", ram: 8, ssd: 256, onRepairs
 var nout3 = Laptop(name: "Acer", cpu: "Intel i9", ram: 16, ssd: 128, onRepairs: true, keyboard: true)
 
 var devices: [Computer] = [pk, mob1, mob2, mob3, mob4, mob5, mob6, nout1, nout2, nout3]
-var j: Int = 0
-var k: Int = 0
 
+var repair = RepairService(gadget: devices)
 
-//RepairService.repShowInfo(array: devices)
+repair.repShowInfo(array: devices)
  
-//repShowInfo(array: devices)
-
-for pk in devices {
-    if pk is Laptop && pk.onRepairs {
-        j += 1
-    }
-      // pk.showInfo()
-    if pk is Smartphone && pk.onRepairs {
-        k += 1
-   }
-}
-print("На сервисе: \(j) ноутбуков и \(k) смартфонов")
 
 
